@@ -1,0 +1,10 @@
+section {
+    box-sizing: border-box;
+    border: 1px solid green;
+    margin: 10px;
+}
+
+td {
+    width: 100px;
+    height: 50px;
+}
