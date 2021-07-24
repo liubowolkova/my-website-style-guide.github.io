@@ -12,44 +12,91 @@
         <main>
             <article>
                 <section>
-                    <h2>Colors</h2>
+                    <header>
+                        <h2>Colors</h2>
+                    </header>
                     <table>
                         <tbody>
-                            <tr class="pri">
-                                <td class="cbox bg-pri-3" rel="pri-3" style="background-color: rgb(255, 64, 64);"></td>
-                                <td class="cbox bg-pri-0" rel="pri-0" rowspan="2" style="background-color: rgb(255, 0, 0);"></td>
-                                <td class="cbox bg-pri-1" rel="pri-1" style="background-color: rgb(191, 48, 48);"></td>
+                            <tr>
+                                <td class="cell" style="background-color: rgb(255, 64, 64);"><span>rgb(255, 64, 64)</span><br><span>#FF4040</span></td>
+                                <td class="cell" rowspan="2" style="background-color: rgb(255, 0, 0);"><span>rgb(255, 0, 0)</span><br><span>#FF0000</span></td>
+                                <td class="cell" style="background-color: rgb(191, 48, 48);"><span>rgb(191, 48, 48)</span><br><span>#BF3030</span></td>
                             </tr>
-                            <tr class="pri">
-                                <td class="cbox bg-pri-4" rel="pri-4" style="background-color: rgb(255, 115, 115);"></td>
-                                <td class="cbox bg-pri-2" rel="pri-2" style="background-color: rgb(166, 0, 0);"></td>
+                            <tr>
+                                <td class="cell" style="background-color: rgb(255, 115, 115);"><span>rgb(255, 115, 115)</span><br><span>#FF7373</span></td>
+                                <td class="cell" style="background-color: rgb(166, 0, 0);"><span>rgb(166, 0, 0)</span><br><span>#A60000</span></td>
                             </tr>
-                            <tr class="sec sec1">
-                                <td class="cbox bg-sec1-1" rel="sec1-1" style="background-color: rgb(29, 115, 115);"></td>
-                                <td class="cbox bg-sec1-0" rel="sec1-0" rowspan="2" style="background-color: rgb(0, 153, 153);"></td>
-                                <td class="cbox bg-sec1-3" rel="sec1-3" style="background-color: rgb(51, 204, 204);"></td>
+                            <tr>
+                                <td class="cell" style="background-color: rgb(29, 115, 115);"><span>rgb(29, 115, 115)</span><br><span>#1D7373</span></td>
+                                <td class="cell" rowspan="2" style="background-color: rgb(0, 153, 153);"><span>rgb(0, 153, 153)</span><br><span>#009999</span></td>
+                                <td class="cell" style="background-color: rgb(51, 204, 204);"><span>rgb(51, 204, 204)</span><br><span>#33CCCC</span></td>
                             </tr>
-                            <tr class="sec sec1">
-                                <td class="cbox bg-sec1-2" rel="sec1-2" style="background-color: rgb(0, 99, 99);"></td>
-                                <td class="cbox bg-sec1-4" rel="sec1-4" style="background-color: rgb(92, 204, 204);"></td>
+                            <tr>
+                                <td class="cell" style="background-color: rgb(0, 99, 99);"><span>rgb(0, 99, 99)</span><br><span>#006363</span></td>
+                                <td class="cell" style="background-color: rgb(92, 204, 204);"><span>rgb(92, 204, 204)</span><br><span>#5CCCCC</span></td>
                             </tr>
-                            <tr class="sec sec2">
-                                <td class="cbox bg-sec2-1" rel="sec2-1" style="background-color: rgb(134, 179, 45);"></td>
-                                <td class="cbox bg-sec2-0" rel="sec2-0" rowspan="2" style="background-color: rgb(159, 238, 0);"></td>
-                                <td class="cbox bg-sec2-3" rel="sec2-3" style="background-color: rgb(185, 247, 62);"></td>
+                            <tr>
+                                <td class="cell" style="background-color: rgb(134, 179, 45);"><span>rgb(134, 179, 45)</span><br><span>#86B32D</span></td>
+                                <td class="cell" rowspan="2" style="background-color: rgb(159, 238, 0);"><span>rgb(159, 238, 0)</span><br><span>#9FEE00</span></td>
+                                <td class="cell" style="background-color: rgb(185, 247, 62);"><span>rgb(185, 247, 62)</span><br><span>#B9F73E</span></td>
                             </tr>
-                            <tr class="sec sec2">
-                                <td class="cbox bg-sec2-2" rel="sec2-2" style="background-color: rgb(103, 155, 0);"></td>
-                                <td class="cbox bg-sec2-4" rel="sec2-4" style="background-color: rgb(201, 247, 111);"></td>
+                            <tr>
+                                <td class="cell" style="background-color: rgb(103, 155, 0);"><span>rgb(103, 155, 0)</span><br><span>#679B00</span></td>
+                                <td class="cell" style="background-color: rgb(201, 247, 111);"><span>rgb(201, 247, 111)</span><br><span>#C9F76F</span></td>
                             </tr>
                         </tbody>
                     </table>
                 </section>
                 <section>
-                    <h2>Fonts</h2>
+                    <header>
+                        <h2>Fonts</h2>
+                    </header>
+                    <div id="fonts-example">
+                        <h3 class="font font-title">Inconsolata</h3>
+                        <p class="font font-light">Simple text example</p>
+                        <p class="font font-medium">Simple text example</p>
+                        <p class="font font-bold">Simple text example</p>
+                        <p class="font font-black">Simple text example</p>
+                    </div>
                 </section>
                 <section>
-                    <h2>Text Styles</h2>
+                    <header>
+                        <h2>Text Styles</h2>
+                    </header>
+                    <div id="text-example">
+                        <section>
+                            <p class="text-heading-1 font font-black">H1: Main page heading</p>
+                            <ul>
+                                <li>Font-weight: 900 (black)</li>
+                                <li>Font-size: 36px</li>
+                                <li>Font-family: Inconsolata</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <p class="text-heading-2 font font-bold">H2: Subheading</p>
+                            <ul>
+                                <li>Font-weight: 700 (bold)</li>
+                                <li>Font-size: 30px</li>
+                                <li>Font-family: Inconsolata</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <p class="text-heading-3 font font-medium">H3: Extra subheading</p>
+                            <ul>
+                                <li>Font-weight: 500 (medium)</li>
+                                <li>Font-size: 24px</li>
+                                <li>Font-family: Inconsolata</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <p class="text-p font font-light">p: Paragraph text</p>
+                            <ul>
+                                <li>Font-weight: 300 (light)</li>
+                                <li>Font-size: 16px</li>
+                                <li>Font-family: Inconsolata</li>
+                            </ul>
+                        </section>
+                    </div>
                 </section>
             </article>
         </main>

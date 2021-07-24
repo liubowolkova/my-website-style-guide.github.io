@@ -1,10 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: sienna;
+}
+
+header h1, h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    color: white;
+    margin-top: 30px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+
 section {
     box-sizing: border-box;
-    border: 1px solid green;
+    border: 1px solid darkblue;
+    border-radius: 15px;
     margin: 10px;
+    background-color: white;
+}
+
+table {
+    margin: 5px;
 }
 
 td {
-    width: 100px;
+    width: 120px;
     height: 50px;
+}
+
+.cell {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;
+}
+
+.cell span {
+    margin-left: 5px;
+}
+
+#fonts-example {
+    margin: 10px;
+}
+
+.font {
+    font-family: 'Inconsolata', monospace;
+}
+#fonts-example p {
+    margin-block-start: 8px;
+    margin-block-end: 8px;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-black {
+    font-weight: 900;
+}
+
+#text-example section {
+    padding: 10px;
+}
+
+.text-heading-1 {
+    font-size: 36px;
+}
+
+.text-heading-2 {
+    font-size: 30px;
+}
+
+.text-heading-3 {
+    font-size: 24px;
+}
+
+.text-p {
+    font-size: 16px;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
 }
